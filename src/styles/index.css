@@ -1,0 +1,19 @@
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    font-family: 'Courier Prime', monospace;
+    background-color: #1e1e2e;
+    color: #c9d1d9;
+    overflow-x: hidden;
+  }
+  

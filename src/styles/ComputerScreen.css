@@ -1,0 +1,213 @@
+  /* General Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  .computer-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .computer-image {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-top: 1%;
+    opacity: 0%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 2s forwards ease-in;
+  }
+  
+  .shell {
+    font-size: 15px;
+    margin-top: 9%;
+    margin-left: -2%;
+    width: 450px;
+    height: 350px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Fallback background */
+    overflow: hidden; /* Ensure shell content fits */
+    padding: 15px;
+    color: #0f0;
+    font-family: 'Courier New', monospace;
+    overflow-y: auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+    animation: fadeIn 2s forwards ease-in;
+    opacity: 0;
+  }
+  
+  .output {
+    white-space: pre-wrap; /* Preserve formatting */
+    word-wrap: break-word;
+  }
+
+  .shell form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .shell input {
+    flex-grow: 1;
+    background: transparent;
+    color: #0f0;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-family: 'Courier New', monospace;
+  }
+
+  .content {
+    margin-top: 40%;
+    opacity: 0;
+    animation: fadeIn 2s forwards ease-in;
+  }
+  .aboutme-section,
+  .projects-section,
+  .resume-section,
+  .social-section {
+    margin: 20px auto;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .social-section ul,
+  .projects-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-section li,
+  .projects-section li {
+    margin: 1rem 0;
+  }
+  
+  .social-section a,
+  .projects-section a,
+  .resume-section a{
+    color: #58a6ff;
+    text-decoration: none;
+  }
+
+  .social-section a:hover,
+  .resume-section a:hover,
+  .projects-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .default-note {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 3s,
+        cursor .75s step-end infinite alternate;
+  }
+
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+
+  @keyframes typing {
+    from { width: 0; }
+  }
+
+  @keyframes resizeSection {
+    0% {
+      transform: scale(1);
+      background-color: #1e1e1e;
+    }
+    50% {
+      transform: scale(1.1);
+      background-color: #5f5d5d;
+    }
+    100% {
+      transform: scale(1);
+      background-color: #1e1e1e;
+    }
+  }
+  
+  .section-highlight {
+    animation: resizeSection 1s ease-in-out;
+  }
+
+  .command-line {
+    color: #0f0;
+  }
+  
+  .response {
+    color: #58a6ff;
+  }
+  
+  .error {
+    color: #ff5555;
+  }
+
+  .social-icon {
+    width: 24px;
+    height: auto;
+    margin-right: 8px;
+    vertical-align: middle;
+    margin-left: 15px;
+  }
+
+  @media (max-width: 480px) {
+    .computer-screen {
+      width: 100%;
+    }
+
+    .computer-image {
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+    }
+    .shell {
+      font-size: 10px;
+      margin-top: 7%;
+      left: 20.7%;
+      width: 230px;
+      height: 180px;
+    
+    }
+    .content {
+      margin-top: 40%;
+      justify-content: center;
+      align-items: center;
+    }
+    .aboutme-section,
+    .projects-section,
+    .resume-section,
+    .social-section{
+      width: 90%;
+    }
+
+    
+  }
+ 
