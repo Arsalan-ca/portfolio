@@ -183,19 +183,25 @@ const ComputerScreen = () => {
                 {/* Social Section */}
                 <div className="social-section">
                   <h2>Socials</h2>
-                  <ul>
-                    <li>
-                        <a href="https://www.linkedin.com/in/arsalan-moaddeli/" target="_blank" rel="noopener noreferrer">
-                            <img src={require("../assets/Linkedin.png")} alt="LinkedIn" className="social-icon" />
-                            LinkedIn</a>
-                        <a href="mailto:your.arsalanmod2003.com" target="_blank" rel="noopener noreferrer">
-                            <img src={require("../assets/Gmail.png")} alt="Gmail" className="social-icon" />
-                            Email</a>
-                        <a href="https://github.com/Arsalan-ca" target="_blank" rel="noopener noreferrer">
-                            <img src={require("../assets/GitHub.png")} alt="GitHub" className="social-icon" />
-                            GitHub</a>
-                    </li>
-                  </ul>
+                  <div >
+                    <ul className="social-icons">
+                      <li>
+                          <a href="https://www.linkedin.com/in/arsalan-moaddeli/" target="_blank" rel="noopener noreferrer">
+                              <img src={require("../assets/Linkedin.png")} alt="LinkedIn" className="social-icon" />
+                              LinkedIn</a>
+                      </li>
+                      <li>
+                          <a href="mailto:your.arsalanmod2003.com" target="_blank" rel="noopener noreferrer">
+                              <img src={require("../assets/Gmail.png")} alt="Gmail" className="social-icon" />
+                              Email</a>
+                      </li>
+                      <li>
+                          <a href="https://github.com/Arsalan-ca" target="_blank" rel="noopener noreferrer">
+                              <img src={require("../assets/GitHub.png")} alt="GitHub" className="social-icon" />
+                              GitHub</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
             </li>
         </ul>
