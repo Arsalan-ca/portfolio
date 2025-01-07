@@ -152,14 +152,31 @@ const ComputerScreen = () => {
                 <div ref={resumeSectionRef} className="resume-section">
                   <h2>Resume</h2>
                   <a href={require("../assets/M.M-resume.pdf")} download="Arsalan_Moaddeli_Resume.pdf">
-                    View Resume
+                    Download Resume
                   </a>
+                  <br></br>
+                  <embed class="resume" src={require("../assets/M.M-resume.pdf")} type="application/pdf" />
                 </div>
             </li>
             <li class="section" id="section5">
                 <div ref={workSectionRef} className="work-section">
                   <h2>Work Experience</h2>
-                  
+                  <div className="work-experience">
+                    <h3>Data Analyst (co-op) | Procor Limited | Oakville, ON | 02/2024 - 05/2024</h3>
+                    <ul>
+                      <li>Developed and deployed a digital transformation system that converted over 100 manual PDF forms into interactive digital forms, enabling seamless data entry on iPads and reducing paper usage by 90%.</li>
+                      <li>Optimized database efficiency by designing a system to store only essential data fields from submitted forms, significantly reducing storage requirements and improving data retrieval accuracy.</li>
+                      <li>Collaborated with a team to implement dynamic, dependency-driven form fields using Adobe Acrobat and JavaScript, enhancing user experience and ensuring accurate data mapping across workflows.</li>
+                    </ul>
+                  </div>
+                  <div className="work-experience">
+                    <h3>ML Research Assistant (Intern) | McMaster Automotive Resource Centre | Hamilton, ON | 05/2023 - 12/2023</h3>
+                    <ul>
+                      <li>Preprocessed and annotated large datasets, including fisheye camera frames and GPS data, for use in LSTM and RNN models aimed at enhancing pedestrian safety at intersections.</li>
+                      <li>Designed and implemented mathematical algorithms to identify and track surrounding vehicles in a driver's field of view, creating a dataset for autonomous driving systems to improve situational awareness.</li>
+                      <li>Trained deep learning models for speed and trajectory prediction, leveraging Python, MongoDB, and Google My Maps, while self-learning advanced ML techniques to optimize model performance.</li>
+                    </ul>
+                  </div>
                 </div>
             </li>
             <li class="section" id="section6">
