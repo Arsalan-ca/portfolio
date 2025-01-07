@@ -151,7 +151,7 @@ const ComputerScreen = () => {
                 {/* Resume Section */}
                 <div ref={resumeSectionRef} className="resume-section">
                   <h2>Resume</h2>
-                  <a href={require("../assets/M.M-resume.pdf")} download="Arsalan_Moaddeli_Resume.pdf">
+                  <a href={require("../assets/M-Moaddeli-Software-developer.pdf")} download="Arsalan_Moaddeli_Resume.pdf">
                     Download Resume
                   </a>
                   <br></br>
