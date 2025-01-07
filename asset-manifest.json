@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.18e51bc2.css",
-    "main.js": "/portfolio/static/js/main.c642a481.js",
-    "static/media/M.M-resume.pdf": "/portfolio/static/media/M.M-resume.acd50c8468c99d0efa04.pdf",
+    "main.css": "/portfolio/static/css/main.330e53cb.css",
+    "main.js": "/portfolio/static/js/main.a024a008.js",
+    "static/media/M-Moaddeli-Software-developer.pdf": "/portfolio/static/media/M-Moaddeli-Software-developer.3b703140fc985b2049db.pdf",
     "static/media/computer1.png": "/portfolio/static/media/computer1.af62721c777027436322.png",
     "static/media/Gmail.png": "/portfolio/static/media/Gmail.98dbeb0a0b5c53fef182.png",
     "static/media/Linkedin.png": "/portfolio/static/media/Linkedin.7ab7f69ae322f5a4a1d5.png",
     "static/media/GitHub.png": "/portfolio/static/media/GitHub.a5aa19a9f22832146749.png",
     "index.html": "/portfolio/index.html",
-    "main.18e51bc2.css.map": "/portfolio/static/css/main.18e51bc2.css.map",
-    "main.c642a481.js.map": "/portfolio/static/js/main.c642a481.js.map"
+    "main.330e53cb.css.map": "/portfolio/static/css/main.330e53cb.css.map",
+    "main.a024a008.js.map": "/portfolio/static/js/main.a024a008.js.map"
   },
   "entrypoints": [
-    "static/css/main.18e51bc2.css",
-    "static/js/main.c642a481.js"
+    "static/css/main.330e53cb.css",
+    "static/js/main.a024a008.js"
   ]
 }
