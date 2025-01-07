@@ -155,7 +155,7 @@ const ComputerScreen = () => {
                     Download Resume
                   </a>
                   <br></br>
-                  <embed class="resume" src={require("../assets/M, Moaddeli - Software developer.pdf")} type="application/pdf" />
+                  <embed class="resume" src={require("../assets/M-Moaddeli-Software-developer.pdf")} type="application/pdf" />
                 </div>
             </li>
             <li class="section" id="section5">
